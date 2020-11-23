@@ -1,0 +1,92 @@
+/* CSS do site BUSTOP | por: Vinicius Costa*/
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}
+body{
+	background:#ccc url(../img/fundo.jpg) center top no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+@font-face {
+	font-family:LOGO;
+	src: url(fonts/Payback.ttf);
+}
+h1 {
+	font-family: LOGO;
+	font-size:50px;
+}
+div.gallery {
+ 	margin: 30px;
+ 	float: left;
+  	width: 180px;
+}
+
+div.gallery img {
+	width: 100%;
+ 	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+ 	text-align: center;
+}
+.principal{
+	width: 1000px;
+	color: #444;
+	margin: 0 auto;
+	font-family:serif;
+}
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+.fundo{
+	float:left;
+}
+.fundo, .fundo:before{
+	width:100%;
+}
+.fundo:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background:#e0fffe;
+	opacity: 0.5;
+	z-index:-1;
+	content:'';
+}
+.espacamento{
+	text-align: center;
+	position: center;
+	padding:20px;
+}
+.barra {
+  	background-color: #333;
+  	font-family:serif;
+  	overflow: hidden;
+}
+.barra a {
+ 	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+ 	padding: 15px 25px;
+  	text-decoration:none;
+  	font-size: 20px;
+}
+.barra a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+.barra a.active {
+  	background-color: #24abf3;
+  	color: white;
+}
+.rodape, .rodape{
+	padding:20px;
+	color:#1717ad;
+	text-align:center;
+}
