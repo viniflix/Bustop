@@ -4,7 +4,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="../css/forms.css" />
 		<link rel="icon" type="imagem/png" href="../img/icon/icon.png" />
-		<title>BUSTOP - Abrir Chamado</title>
+		<title>BUSTOP - Envie-nos seu curriculo</title>
 	</head>
 
 	<body>
@@ -21,15 +21,44 @@
 
 					<div class="espacamento">
 
-						<h1> Abrir Chamado </h1>
-						<div class="box">
-							<a class ="botao botao-cor" href="contratar.html"> Contratar </a>
-							<p> Envie-nos seu curriculo </p>
-						</div>
-						<div class="box">
-							<a class="botao botao-cor" href="chamado.html"> Chamado </a>
-							<p> Abrir um chamado </p>
-						</div>
+						<h1> Chamado </h1>
+
+						<form action="#" method="post">
+						    <fieldset>
+						        <fieldset class="grupo">
+
+						            <div class="campo">
+						                <label for="nome">Funcionario:</label>
+						                <input type="text" id="nome" name="nome" style="width: 250px" value="">
+						            </div>
+						            
+						        </fieldset>
+
+						        <div class="campo">
+						            <label for="email">Assunto:</label>
+						            <input type="text" id="assunto" name="assunto" style="width: 220px" value="">
+						        </div>
+
+						        <fieldset class="grupo">
+						            <div class="campo">
+						                <label for="setor">Setor:</label>
+						                <select name="setor" id="setor">
+						                    <option value="">Selecione Aqui...</option>
+						                    <option value="ADM">Administrativa</option>
+						                    <option value="GER">Gerencial</option>
+						                    <option value="OPE">Operacional</option>
+						                </select>
+						                <div class="campo">
+	            							<label for="mensagem">Detalhe:</label>
+								            <textarea rows="6" style="width: 200px" id="mensagem" name="mensagem"></textarea>
+								        </div>
+						            </div>
+						        </fieldset>
+
+						        <button class="botao botao-cor" type="submit" name="submit">Enviar</button>
+
+						    </fieldset>
+						</form>
 
 					</div>
 				</div>
