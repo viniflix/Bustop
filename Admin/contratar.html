@@ -2,9 +2,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<link rel="stylesheet" type="text/css" href="../css/admin.css" />
+		<link rel="stylesheet" type="text/css" href="../css/forms.css" />
 		<link rel="icon" type="imagem/png" href="../img/icon/icon.png" />
-		<title>BUSTOP - Administração</title>
+		<title>BUSTOP - Envie-nos seu curriculo</title>
 	</head>
 
 	<body>
@@ -12,24 +12,85 @@
 			<div class="corpo">
 				<div class="fundo">
 					<div class="barra">
-					  <a  href="../index.html">Inicio</a>
+					  <a href="../index.html">Inicio</a>
 					  <a href="../Reserva/index.html">Horarios</a>
 					  <a href="../Contato/index.html">Contato</a>
 					  <a href="../Sobre/index.html">Nossa História</a>
-					  <a class="admin" href="#">Administração</a>
+					  <a class="admin" href="index.html">Administração</a>
 					</div>
 
 					<div class="espacamento">
 
-						<h1> Area Administrativa </h1>
-						<div class="box">
-							<a class ="botao botao-cor" href="contratar.html"> Contratar </a>
-							<p> Envie-nos seu curriculo </p>
-						</div>
-						<div class="box">
-							<a class="botao botao-cor" href="chamado.html"> Chamado </a>
-							<p> Abrir um chamado </p>
-						</div>
+						<h1> Formulario de Contratação </h1>
+
+						<form action="#" method="post">
+						    <fieldset>
+						        <fieldset class="grupo">
+
+						            <div class="campo">
+						                <label for="nome">Nome Completo:</label>
+						                <input type="text" id="nome" name="nome" style="width: 20em" value="">
+						            </div>
+						            
+						        </fieldset>
+
+						        <div class="campo">
+						            <label for="email">E-mail:</label>
+						            <input type="text" id="email" name="email" style="width: 15em" value="">
+						            <label for="telefone">Telefone:</label>
+						            <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+						        </div>
+
+						        <fieldset class="grupo">
+
+						            <div class="campo">
+						                <label for="cidade">Cidade:</label>
+						                <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+						            </div>
+
+						            <div class="campo">
+						                <label for="estado">Estado:</label>
+						                <select name="estado" id="estado">
+						                    <option value="">--</option>
+						                    <option value="AC">AC</option>
+						                    <option value="AL">AL</option>
+						                    <option value="AM">AM</option>
+						                    <option value="AP">AP</option>
+						                    <option value="BA">BA</option>
+						                    <option value="CE">CE</option>
+						                    <option value="DF">DF</option>
+						                    <option value="ES">ES</option>
+						                    <option value="MA">MA</option>
+						                    <option value="MG">MG</option>
+						                    <option value="MS">MS</option>
+						                    <option value="MT">MT</option>
+						                    <option value="PA">PA</option>
+						                    <option value="PB">PB</option>
+						                    <option value="PE">PE</option>
+						                    <option value="PI">PI</option>
+						                    <option value="PR">PR</option>
+						                    <option value="RJ">RJ</option>
+						                    <option value="RN">RN</option>
+						                    <option value="RO">RO</option>
+						                    <option value="RR">RR</option>
+						                    <option value="RS">RS</option>
+						                    <option value="SC">SC</option>
+						                    <option value="SE">SE</option>
+						                    <option value="SP">SP</option>
+						                    <option value="TO">TO</option>
+						                </select>
+						            </div>
+						        </fieldset>
+
+						        <div class="campo">
+						        	<label>Currículo:</label>
+   									<input type="file" name="curriculo">
+						        </div>
+
+						        <button class="botao botao-cor" type="submit" name="submit">Enviar</button>
+
+						    </fieldset>
+						</form>
 
 					</div>
 				</div>
