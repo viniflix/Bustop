@@ -37,7 +37,7 @@ h3 {
 	width: 1000px;
 	color: #444;
 	margin: 0 auto;
-	font-family:serif;
+	font-family:Verdana;
 }
 .corpo{
 	position:relative;
@@ -66,7 +66,7 @@ h3 {
 }
 .barra {
   	background-color: #333;
-  	font-family:serif;
+  	font-family:Verdana;
   	overflow: hidden;
 }
 .barra a {
@@ -84,6 +84,10 @@ h3 {
 .barra a.active {
   	background-color: #24abf3;
   	color: white;
+}
+.barra a.admin {
+	float:right;
+	color:lightgreen;
 }
 .rodape, .rodape{
 	padding:20px;

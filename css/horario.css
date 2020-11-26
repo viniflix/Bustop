@@ -11,11 +11,11 @@ body{
 	background-attachment:fixed;
 }
 @font-face {
-	font-family:LOGO;
+	font-family:Nome;
 	src: url(fonts/Payback.ttf);
 }
 h1 {
-	font-family: LOGO;
+	font-family: Nome;
 	font-size:60px;
 }
 table, td, th {
@@ -57,7 +57,7 @@ a.link:active {
 	width: 1000px;
 	color: #444;
 	margin: 0 auto;
-	font-family:serif;
+	font-family:Verdana;
 }
 .corpo{
 	position:relative;
@@ -86,7 +86,7 @@ a.link:active {
 }
 .barra {
   	background-color: #333;
-  	font-family:serif;
+  	font-family:Verdana;
   	overflow: hidden;
 }
 .barra a {
@@ -105,7 +105,10 @@ a.link:active {
   	background-color: #24abf3;
   	color: white;
 }
-
+.barra a.admin {
+	float:right;
+	color:lightgreen;
+}
 
 .rodape, .rodape{
 	padding:20px;

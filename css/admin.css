@@ -18,21 +18,15 @@ h1 {
 	font-family: Nome;
 	font-size:60px;
 }
-div.gallery {
- 	margin: 30px;
- 	float: left;
-  	width: 180px;
+@font-face {
+	font-family:Homework;
+	src: url(fonts/Homework.otf);
+}
+@font-face {
+	font-family:Kind;
+	src: url(fonts/Kind.otf);
 }
 
-div.gallery img {
-	width: 100%;
- 	height: auto;
-}
-
-div.desc {
-	padding: 15px;
- 	text-align: center;
-}
 .principal{
 	width: 1000px;
 	color: #444;
@@ -81,14 +75,42 @@ div.desc {
   	background-color: #ddd;
   	color: black;
 }
-.barra a.active {
-  	background-color: #24abf3;
-  	color: white;
-}
 .barra a.admin {
+	background-color: #24abf3;
 	float:right;
-	color:lightgreen;
+	color:darkgreen;
 }
+.box{
+	display: inline-block;
+	width: 240px; height: 100px;
+    margin: 100px;
+}
+.botao {
+	border:2px solid #25692A;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Nome;
+	font-weight:bold;
+	font-size:20px;
+	padding:20px 60px;
+	text-decoration:none;
+}
+.botao:active {
+position:relative;
+top:2px;
+}
+.botao-cor {
+	border-color:#004099;
+	background:linear-gradient(to bottom, #006bff 5%, #004099  100%);
+	box-shadow:inset 0px 1px 0px 0px #e3f1e3;
+	color: #000e22;
+	text-shadow:0px 1px 1px #bbd7ff;
+}
+.botao-cor:hover {
+background:linear-gradient(to bottom, #4492ff 5%, #bbd7ff 100%);
+}
+
 .rodape, .rodape{
 	padding:20px;
 	color:#1717ad;
